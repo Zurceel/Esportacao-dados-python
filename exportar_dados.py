@@ -15,10 +15,10 @@ data_inicio = ontem.strftime("%Y-%m-%d 00:00:00")
 nome_arquivo = f"{ontem.strftime('%d-%m-%Y')}.txt"
 
 # 📌 Configurar conexão com SQL Server via SQLAlchemy
-server = 'pld-bacen.database.windows.net'
-database = 'pld-bacen'
-username = 'greenpass'
-password = 'r9b2OCFg5VZB1P2zyJi6rVV8PiRy1f'
+server = 'Servidor'
+database = 'Banco de dados'
+username = 'Login'
+password = 'senha'
 conn_str = f"mssql+pyodbc://{username}:{password}@{server}/{database}?driver=SQL+Server"
 
 # 📌 Criar o engine SQLAlchemy
